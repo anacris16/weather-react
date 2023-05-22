@@ -1,9 +1,10 @@
 
 .Weather{
-   border:1px solid #dadde1;
+   border:1px solid white;
+   background-color:white;
    padding:16px;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius:4px;
+    border-radius:6px;
     color:rgb(135,135,135);
 }
 
@@ -17,6 +18,7 @@
     margin:20px 0 0 0;
     font-weight:700;
     height:1.5;
+    color:#430f58;
 }
 
 .Weather ul{
@@ -37,9 +39,13 @@
  display:inline-block;
 }
 
+.WeatherInfo{
+    padding-bottom:25px;
+}
+
 .Weather .temperature{
     font-weight:400;
-    color:rgb(33,33,33);
+    color:#430f58;
     font-size:64px;
     line-height:64px;
 }
@@ -50,4 +56,9 @@
     font-weight:400;
     position:relative;
     top:-32px;
+}
+
+.Weather .btn{
+    background-color:#6643b5;
+    border: 1px solid #6643b5;
 }
