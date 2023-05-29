@@ -62,3 +62,10 @@
     background-color:#6643b5;
     border: 1px solid #6643b5;
 }
+
+@media (max-width:900px){
+ .Weather .btn{
+    padding:3px;
+    font-size: 10px;
+ }
+}
